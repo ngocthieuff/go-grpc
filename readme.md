@@ -30,3 +30,8 @@ generate model(_grpc.pb.go) and service(pb.go):
 mkdir schema
 protoc calculator/calculatorpb/calculator.proto --go_out=./schema --go-grpc_out=./schema
 ```
+
+You can add rule to Makefile and call alias like this:
+```console
+make gen-cal
+```
