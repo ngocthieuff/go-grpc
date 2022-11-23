@@ -35,3 +35,9 @@ You can add rule to Makefile and call alias like this:
 ```console
 make gen-cal
 ```
+
+Import/get packages in go:
+```console
+go mod init gogrpc
+go get -u google.golang.org/grpc
+```
